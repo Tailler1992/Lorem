@@ -21,3 +21,6 @@ npm install
 # Собрать итоговую сборку в папку dist/
 gulp build
 ```
+
+## GitHub Pages:
+https://tailler1992.github.io/Lorem.github.io/dist/index.html
