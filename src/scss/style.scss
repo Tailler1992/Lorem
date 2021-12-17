@@ -1,0 +1,38 @@
+@import "_normalize.scss";
+@import "_nullstile";
+@import "_fonts";
+
+/* common styles ---------------------------------- */
+.container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+html {
+    font-family: "Montserrat", "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #141414;
+}
+
+//КОМПОНЕНТЫ БЛОКОВ
+// @import "../components/logo/logo";
+// @import "../components/nav/nav";
+@import "../components/btn/btn";
+// @import "../components/button/_theme/button_theme-big";
+// @import "../components/button/_theme/button_theme-small";
+// @import "../components/card/card";
+// @import "../components/card-worker/card-worker";
+
+//БЛОКИ СТРАНИЦЫ
+@import "../components/header/header";
+@import "../components/hero/hero";
+@import "../components/about/about";
+// @import "../components/guarantees/guarantees";
+// @import "../components/team/team";
+// @import "../components/subscribe/subscribe";
+// @import "../components/footer/footer";

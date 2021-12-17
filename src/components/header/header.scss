@@ -1,0 +1,99 @@
+.header {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+    &__logo-name {
+        position: relative;
+        margin-left: 7px;
+        font-family: "Reggae One";
+        font-size: 28px;
+        color: white;
+
+        &::before {
+            position: absolute;
+            content: "";
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #235ebe;
+            transition: 0.5s;
+            transform: scaleX(0);
+        }
+        &:hover::before {
+            transform: scaleX(1);
+        }
+        &:active {
+            color: #c8c8c8;
+        }
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+    &__search {
+        margin-left: 65px;
+
+        cursor: pointer;
+    }
+    &__search-svg {
+        height: 20px;
+        vertical-align: bottom;
+        fill: #ffffff;
+        &:hover {
+            fill: #235ebe;
+        }
+        &:active {
+            fill: #235ebea9;
+        }
+    }
+    &__burger {
+        display: none;
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+    }
+    &__item {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1;
+        &:not(:last-child) {
+            margin-right: 65px;
+        }
+    }
+    &__link {
+        position: relative;
+        color: #ffffff;
+        &::before {
+            position: absolute;
+            content: "";
+            bottom: -3px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #235ebe;
+            transition: 0.5s;
+            transform: scaleX(0);
+        }
+        &:hover:before {
+            transform: scaleX(1);
+        }
+        &:active {
+            color: #c8c8c8;
+        }
+    }
+}
