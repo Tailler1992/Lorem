@@ -1,0 +1,66 @@
+.footer
+    .footer__container.container
+        .footer__left
+            .footer__logo
+                img(src="img/ico/logo.png" alt="Логотип компании Gnombolt" height="30")
+            ul.footer-menu
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | О нас
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | Проекты
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | Отзывы
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | Договор оферты
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | Договор подряда
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | Конфиденциальность
+                li.footer-menu__item
+                    a.footer-menu__link(href="#")
+                        | Соглашения
+            ul.social
+                li.social__item
+                    a.social__link(href="#")
+                        include vk.svg
+                li.social__item
+                    a.social__link(href="#")
+                        include fb.svg
+                li.social__item
+                    a.social__link(href="#")
+                        include tw.svg
+        .footer__center
+            form.form(action="" method="post")
+                h3.form__title
+                    | Оставить заявку
+                input.form__input(type="text" name="name" placeholder="Фамилия, имя и отчество")
+                input.form__input(type="email" name="email" placeholder="Email")
+                textarea.form__input.form__input_textarea(name="msg" placeholder="Сообщение")
+                .form__buttons
+                    button.form__button.btn Отправить
+                    .form__check
+                        label.form__data(for="user-check")
+                            | Согласен на обработку данных
+                            input.form__input-check(type="checkbox" name="checkbox" id="user-check")
+                            span.form__checkmark
+        .footer__right
+            p.footer__text
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Assumenda dolor impedit aliquid saepe, placeat, vitae tenetur
+                | aut consequuntur voluptates repellendus cupiditate quas ab
+                | exercitationem magnam dolorum tempora, recusandae numquam perspiciatis?
+
+
+
+
+
+
+
+
+

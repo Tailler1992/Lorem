@@ -38,7 +38,7 @@ gulp.task('scss', function () { // Создаем таск Sass
 //js
 //команда- gulp scripts
 gulp.task('scripts', function () {
-    return gulp.src('src/*.js') // Берем источник
+    return gulp.src('src/js/**/*.js') // Берем источник
         //.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         //.pipe(uglify()) // Сжимаем JS файл
         .pipe(gulp.dest('dist/js')); // Выгружаем в папку dist/js

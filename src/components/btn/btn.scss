@@ -33,3 +33,15 @@
         background-color: #235ebd7c;
     }
 }
+
+.btn-purple {
+    background-color: transparent;
+
+    border: 2px solid #8123be;
+    &:hover {
+        outline: 3px solid #8123be;
+    }
+    &:active {
+        background-color: #8023be79;
+    }
+}
